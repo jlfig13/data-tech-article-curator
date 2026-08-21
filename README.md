@@ -9,10 +9,13 @@ Este repositório está em fase de **Descobrir/Definir** (Double Diamond). A ide
 (um crawler + classificador + buscador de conteúdo técnico) é tratada aqui como **hipótese de
 solução**, não como escopo aprovado.
 
-O Discovery em andamento aponta que **o problema declarado ainda não é forte o suficiente para
-justificar construção** — a suspeita central é que o gargalo esteja no *consumo* (atenção,
-hábito), não na *coleta* (disponibilidade de conteúdo). Construir um coletor não resolve um
-problema de consumo.
+O E0 (auditoria retrospectiva) já foi respondido e derrubou a hipótese inicial mais provável: não
+existe estoque de conteúdo represado (zero newsletters, zero links salvos parados). O padrão real é
+outro — **aprendizado 100% reativo (*pull*)**: pesquisa profunda só quando um problema real já está
+em mãos, e o que é aprendido costuma virar aplicação real (ex.: DuckDB → tabelas colunares em um
+DataLake real). Nunca houve tentativa de exposição passiva a tecnologia (nem a mais barata, como
+assinar uma newsletter). **A maior incerteza agora é: algo que chegue pronto, sem você ter ido
+atrás, será de fato aberto e lido?** Isso nunca foi testado.
 
 ## Documentos
 
@@ -22,10 +25,11 @@ problema de consumo.
 | 01 | [Desconstrução do problema](docs/discovery/01-desconstrucao-do-problema.md) | Pressupostos, reformulação neutra, JTBD |
 | 02 | [The Mom Test](docs/discovery/02-mom-test.md) | Roteiro de auto-investigação por comportamento passado |
 | 03 | [Alternativas atuais](docs/discovery/03-alternativas-atuais.md) | O que já existe e por que (ainda) não foi usado |
-| 04 | [Força do problema](docs/discovery/04-forca-do-problema.md) | Pontuação, evidências a favor e contra |
-| 05 | [Decisão e experimentos](docs/discovery/05-decisao-e-experimentos.md) | Maior incerteza e o menor teste para decidir |
+| 04 | [Força do problema](docs/discovery/04-forca-do-problema.md) | Pontuação inicial (11/25), evidências a favor e contra |
+| 05 | [Decisão e experimentos](docs/discovery/05-decisao-e-experimentos.md) | Escada de experimentos original (E0 → E3) |
+| 06 | [Resultado do E0](docs/discovery/06-resultado-e0.md) | Respostas reais, reformulação do problema, pontuação atualizada (10/25) e próximo experimento (E1′) |
 
 ## Leitura mínima
 
-Se for ler só uma coisa: [05 — Decisão e experimentos](docs/discovery/05-decisao-e-experimentos.md).
-Ele contém o experimento E0, que custa ~40 minutos e pode encerrar o projeto hoje.
+Se for ler só uma coisa: [06 — Resultado do E0](docs/discovery/06-resultado-e0.md).
+O próximo passo (E1′) custa ~0 e já tem data de revisão: 2026-09-04.
