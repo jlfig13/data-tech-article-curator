@@ -28,8 +28,15 @@ atrás, será de fato aberto e lido?** Isso nunca foi testado.
 | 04 | [Força do problema](docs/discovery/04-forca-do-problema.md) | Pontuação inicial (11/25), evidências a favor e contra |
 | 05 | [Decisão e experimentos](docs/discovery/05-decisao-e-experimentos.md) | Escada de experimentos original (E0 → E3) |
 | 06 | [Resultado do E0](docs/discovery/06-resultado-e0.md) | Respostas reais, reformulação do problema, pontuação atualizada (10/25) e próximo experimento (E1′) |
+| 07 | [Registro do E1′](docs/discovery/07-registro-e1.md) | Log em andamento — fontes assinadas, itens abertos, revisão em 2026-09-04 |
+
+## Estado: **em teste, não em construção**
+
+Decisão de 2026-08-21: **testar antes de construir.** Duas fontes prontas foram assinadas
+(sem código, sem custo). O critério que decide se o MVP começa a ser construído está em
+[07 — Registro do E1′](docs/discovery/07-registro-e1.md): ler até o fim ≥3 itens em 2 semanas.
+Revisão marcada para **2026-09-04**.
 
 ## Leitura mínima
 
-Se for ler só uma coisa: [06 — Resultado do E0](docs/discovery/06-resultado-e0.md).
-O próximo passo (E1′) custa ~0 e já tem data de revisão: 2026-09-04.
+Se for ler só uma coisa: [07 — Registro do E1′](docs/discovery/07-registro-e1.md).
