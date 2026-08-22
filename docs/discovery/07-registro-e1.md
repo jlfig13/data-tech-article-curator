@@ -83,6 +83,28 @@ comportamento de "grazing"/pastoreio, não de leitura de newsletter linear.** Is
 importante em relação ao desenho original do E1′, que assumia que push por e-mail seria o
 mecanismo. Ver nota na revisão de 04/09 abaixo.
 
+## Log — descoberta algorítmica (um quarto modo, fora do critério push)
+
+| Data | Fonte | Item | Status | Observação |
+|------|-------|------|--------|------------|
+| ~2026-08-23/24 | YouTube (sugestão do algoritmo) | [mattpocock/skills](https://github.com/mattpocock/skills) | Em avaliação/uso ativo | Apareceu como sugestão, assistiu ao vídeo, gostou, e está **usando o repositório em projetos reais agora**. Repo bem avaliado no GitHub. |
+
+Este é o achado mais forte do E1′ até aqui — não pela leitura em si, mas pelo resultado: descoberta
+totalmente passiva (algoritmo do YouTube, sem nenhuma newsletter, sem nenhuma busca) → avaliação →
+**uso real em projeto**. É exatamente o caso DuckDB da [hipótese inicial](00-hipotese-inicial.md)
+se repetindo, só que desta vez capturado enquanto acontece, e a fonte não foi nenhuma das 2
+assinadas — foi o algoritmo de uma plataforma de vídeo que o usuário já usa por outros motivos.
+
+**Implicação para a revisão de 04/09:** os quatro modos observados até agora — push por newsletter
+(0 casos ainda), pull por problema real (histórico do E0), grazing no Substack (2 casos) e
+descoberta algorítmica no YouTube (1 caso, o melhor resultado) — sugerem que **a descoberta em si
+já está razoavelmente coberta** por ferramentas que o usuário já usa no dia a dia, sem nenhuma
+construção. O gap que continua sem resposta em nenhum desses casos é **captura e recuperação**:
+não existe hoje nenhum lugar central onde "Supabase, Airflow, DuckDB, mattpocock/skills, ontologia
+de agentes IA" fiquem registrados e buscáveis daqui a 6 meses. Isso reforça a hipótese já levantada
+no doc 06 (Problema C) como o alvo mais provável e mais barato para um eventual MVP — não um
+coletor de conteúdo, e sim uma camada leve de registro pessoal sobre descobertas que já acontecem.
+
 ## Revisão agendada: 2026-09-04
 
 Nessa data, comparar o log com o critério de sucesso:
