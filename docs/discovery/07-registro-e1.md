@@ -70,6 +70,19 @@ diferente do radar de tecnologia. Vale só marcar aqui para não confundir depoi
 *efeito* do E1′ funcionando, não *parte* do MVP que este repositório eventualmente construiria. Se
 quiser tocá-los, provavelmente merecem repositório próprio.
 
+## Log — navegação exploratória (fora do critério push, registrado à parte)
+
+| Data | Fonte | Item | Concluído? | Observação |
+|------|-------|------|------------|------------|
+| ~2026-08-23 | App Substack (navegação própria) | [50 System Design Concepts Explained](https://designgurus.substack.com/p/50-system-design-concepts-explained) | Não — "não entendi muito bem, vou me aprofundar" | Pull confirmado pelo usuário |
+| ~2026-08-23/24 | App Substack (navegação própria) | [How to Build Your First AI Agent](https://open.substack.com/pub/joozio/p/how-to-build-your-first-ai-agent-beginners-guide-2026) | Sim, com opinião formada | Pull confirmado. Reação forte: já construiu um agente parecido, usa em projeto real, tem posição própria sobre agentes específicos vs. genéricos |
+
+Três dos quatro itens até agora vieram de navegação no app, não das 2 fontes assinadas por push. O
+padrão de comportamento real que está emergindo é: **você abre o Substack e explora o feed —
+comportamento de "grazing"/pastoreio, não de leitura de newsletter linear.** Isso é uma correção
+importante em relação ao desenho original do E1′, que assumia que push por e-mail seria o
+mecanismo. Ver nota na revisão de 04/09 abaixo.
+
 ## Revisão agendada: 2026-09-04
 
 Nessa data, comparar o log com o critério de sucesso:
