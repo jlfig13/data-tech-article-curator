@@ -29,6 +29,7 @@ atrás, será de fato aberto e lido?** Isso nunca foi testado.
 | 05 | [Decisão e experimentos](docs/discovery/05-decisao-e-experimentos.md) | Escada de experimentos original (E0 → E3) |
 | 06 | [Resultado do E0](docs/discovery/06-resultado-e0.md) | Respostas reais, reformulação do problema, pontuação atualizada (10/25) e próximo experimento (E1′) |
 | 07 | [Registro do E1′](docs/discovery/07-registro-e1.md) | Log em andamento — fontes assinadas, itens abertos, revisão em 2026-09-04 |
+| 08 | [Fontes candidatas](docs/discovery/08-fontes-candidatas.md) | Lista de fontes-formato-feed para navegação exploratória, escolhidas com base no padrão real observado no E1′ |
 
 ## Estado: **em teste, não em construção**
 
