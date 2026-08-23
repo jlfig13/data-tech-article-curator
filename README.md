@@ -32,6 +32,7 @@ atrás, será de fato aberto e lido?** Isso nunca foi testado.
 | 08 | [Fontes candidatas](docs/discovery/08-fontes-candidatas.md) | Lista de fontes-formato-feed para navegação exploratória, escolhidas com base no padrão real observado no E1′ |
 | 09 | [Refinamento do JTBD](docs/discovery/09-refinamento-jtbd.md) | Dois jobs distintos: Descoberta (nome novo) x Aprofundamento (conteúdo novo sobre tech já conhecida) |
 | 10 | [Fragmentação e agregação](docs/discovery/10-fragmentacao-e-agregacao.md) | Terceiro problema, com evidência real: custo de vigiar várias fontes sem esquecer. Próximo teste: E1″ (agregador RSS pronto) |
+| 11 | [Lista de feeds](docs/discovery/11-lista-de-feeds.md) | URLs de RSS prontas para colar no Feedly/Inoreader (E1″) |
 
 ## Estado: **em teste, não em construção**
 
