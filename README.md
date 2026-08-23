@@ -31,6 +31,7 @@ atrás, será de fato aberto e lido?** Isso nunca foi testado.
 | 07 | [Registro do E1′](docs/discovery/07-registro-e1.md) | Log em andamento — fontes assinadas, itens abertos, revisão em 2026-09-04 |
 | 08 | [Fontes candidatas](docs/discovery/08-fontes-candidatas.md) | Lista de fontes-formato-feed para navegação exploratória, escolhidas com base no padrão real observado no E1′ |
 | 09 | [Refinamento do JTBD](docs/discovery/09-refinamento-jtbd.md) | Dois jobs distintos: Descoberta (nome novo) x Aprofundamento (conteúdo novo sobre tech já conhecida) |
+| 10 | [Fragmentação e agregação](docs/discovery/10-fragmentacao-e-agregacao.md) | Terceiro problema, com evidência real: custo de vigiar várias fontes sem esquecer. Próximo teste: E1″ (agregador RSS pronto) |
 
 ## Estado: **em teste, não em construção**
 
