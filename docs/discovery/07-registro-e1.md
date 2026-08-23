@@ -5,6 +5,11 @@ Decisão registrada em 2026-08-21: **testar antes de construir.** Ver a discuss�
 argumento "construir já me daria disponibilidade" precisa ser testado com algo que já existe antes
 de justificar semanas de engenharia — o teste é gratuito, a construção não é.
 
+> **Atualização de 2026-08-24:** o [doc 09](09-refinamento-jtbd.md) separou dois jobs distintos —
+> Descoberta **[D]** (nome novo) e Aprofundamento **[A]** (conteúdo novo sobre tecnologia que já
+> conheço/uso). Os 5 itens registrados até aqui são todos **[D]** — nenhum **[A]** apareceu ainda.
+> A partir de agora, marcar cada novo item com o job correspondente.
+
 ## Ação de hoje (2026-08-21)
 
 Assinar **2 fontes**, sem escolher mais que isso:
