@@ -144,7 +144,35 @@ passiva vai mudar isso, por melhor que seja a curadoria. Nesse caso, a resposta 
 hábito leve de, uma vez por trimestre, perguntar a uma IA "o que mudou em [área] desde a última vez
 que perguntei" — o que resolve o caso DuckDB sem exigir consumo passivo nenhum.
 
-## 6.6 Veredito atualizado
+## 6.6 Detalhamento tardio: como cada caso de fato começou (registrado em 2026-08-24)
+
+O E0 original não perguntou *onde* o nome de cada tecnologia apareceu pela primeira vez — só que
+houve pesquisa e aplicação. O usuário completou essa lacuna durante o E1′:
+
+| Tecnologia | Gatilho de origem | Canal | O que fez depois |
+|---|---|---|---|
+| **Supabase** | Alguém mencionou em um vídeo no YouTube | Algorítmico (sugestão) | Pesquisou o que era, gostou, anotou para usar em projeto pessoal |
+| **Airflow** | O irmão comentou sobre a ferramenta | Social (conversa) | Foi direto pesquisar no Google, leu a [documentação oficial](https://airflow.apache.org/docs/) |
+| **DuckDB** | Não relatado (nome já conhecido antes desta busca) | Busca no Google | Caiu num [artigo do DataCamp](https://www.datacamp.com/blog/an-introduction-to-duckdb-what-is-it-and-why-should-you-use-it) explicando o que é |
+
+Mais um dado transversal: em todos os três casos, o aprofundamento incluiu **consultar múltiplas
+IAs (Claude, Gemini, GPT)** — não só ler um artigo, mas conversar com várias ferramentas até
+entender o suficiente para decidir se aplicava.
+
+### O que isso confirma
+
+Os três casos têm exatamente a mesma forma, e ela bate com o que os docs 06 e 07 já vinham
+apontando: **um NOME de tecnologia chega por um canal barato e já usado no dia a dia (vídeo,
+conversa com alguém, busca simples) → só então começa a pesquisa de verdade (Google, documentação,
+IA).** Nenhum dos três nasceu de leitura de artigo completo por iniciativa própria — nasceu de uma
+menção curta que deu o nome certo para buscar.
+
+Isso aponta para uma definição mais precisa do que o "radar" precisaria realmente entregar: **não
+é o artigo em si que falta — é o nome.** Uma vez que o nome chega, o resto do processo (pesquisar,
+ler documentação, consultar IA, decidir aplicar) você já faz sozinho, e faz bem. Ver a continuação
+disso no [doc 07, seção sobre descoberta algorítmica](07-registro-e1.md#log--descoberta-algorítmica-um-quarto-modo-fora-do-critério-push).
+
+## 6.8 Veredito atualizado
 
 > ### O problema segue **incerto** — mas agora por um motivo mais preciso.
 >
